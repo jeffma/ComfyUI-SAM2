@@ -12,8 +12,8 @@ from torch.hub import download_url_to_file
 from urllib.parse import urlparse
 import folder_paths
 import comfy.model_management
-from sam2.build_sam import build_sam2
-from sam2.sam2_image_predictor import SAM2ImagePredictor
+from sam2_local.build_sam import build_sam2
+from sam2_local.sam2_image_predictor import SAM2ImagePredictor
 from local_groundingdino.datasets import transforms as T
 from local_groundingdino.util.utils import (
     clean_state_dict as local_groundingdino_clean_state_dict,
